@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-    background-color: #333;
+    background-color: rgb(25, 25, 25);
 }
 
 /*--------------------SCROLL--------------------*/
@@ -235,7 +235,38 @@ nav ul li:hover:after {
 .home {
     display: flex;
     background-image: linear-gradient(to right, rgb(248, 90,61) 5%, rgb(245, 30, 42) 95%);
-    padding: 15% 5% 15% 5%;
+    padding: 6% 11% 15% 11%;
+}
+
+.home img {
+    width: 235px;
+    height: 235px;
+}
+
+.home-txt {
+    padding: 5% 0 0 0;
+}
+
+.home-txt h1{
+    color: white;
+    font-size: 34px;
+}
+
+.home-txt a {
+    background-color: transparent;
+	transition: all 0.5s;
+	border: white solid 2px;
+	font-weight: bold;
+	padding: 6px 14px;
+	font-size: 14px;
+	color: white;
+	border-radius: 4px;
+}
+
+.home-txt a:hover {
+    transition: all 0.5s;
+	color: red;
+	background-color: white;
 }
 
 /*--------------------HOME--------------------*/
