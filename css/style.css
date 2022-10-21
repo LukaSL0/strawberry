@@ -211,6 +211,10 @@ nav ul li:hover:after {
   letter-spacing: 3px;
 }
 
+.burgeroptns li a {
+    color: white;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -245,11 +249,13 @@ nav ul li:hover:after {
 
 .home-txt {
     padding: 5% 0 0 0;
+    margin-left: auto;
 }
 
 .home-txt h1{
     color: white;
     font-size: 34px;
+    margin-bottom: 15px;
 }
 
 .home-txt a {
@@ -261,6 +267,7 @@ nav ul li:hover:after {
 	font-size: 14px;
 	color: white;
 	border-radius: 4px;
+    float: right;
 }
 
 .home-txt a:hover {
@@ -280,6 +287,18 @@ nav ul li:hover:after {
     }
 }
 
+@media screen and (max-width: 1120px) {
+    .home-txt h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .home-txt h1 {
+        font-size: 27px;
+    }
+}
+
 @media screen and (max-width: 880px) {
     .header {
         padding: 1rem 5%;
@@ -292,5 +311,58 @@ nav ul li:hover:after {
     }
     .burgericon {
         display: flex;
+    }
+    .home {
+        display: block;
+        text-align: center;
+    }
+    .home-txt h1 {
+        font-size: 24px;
+        margin-bottom: 55px;
+    }
+    .home-txt a {
+        float: none;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-txt h1 {
+        font-size: 20.5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header h1 {
+        font-size: 24px;
+    }
+    .home-txt h1 {
+        font-size: 18.5px;
+    }
+    .home-txt a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home-txt h1 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 345px){      /*Galaxy Fold or smaller*/
+    .home-txt h1 {
+        font-size: 13.5px;
+    }
+    .header h1 {
+        font-size: 22px;
+    }
+    .toggler {
+        top: 10px;
+        right: 7px;
+    }
+    .hamburger {
+        top: 10px;
+        right: 7px;
     }
 }
