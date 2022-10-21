@@ -5,15 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="shortcut icon" href="assets/icon.ico">
     <link rel="stylesheet" href="css/style.css">
     <title> Strawberry </title>
 </head>
 <body>
     <header>
-        
+        <section class="header">
+            <h1>STRAWBERRY</h1>
+            <div class="burgericon">
+                <div class="burgeroptns" id="mobile">
+                    <a href="#home" id="algum1"><li>Features</li></a>
+                    <a href="#habilidades" id="algum2"><li>Pricing</li></a>
+                </div> <!-- burgeroptns -->
+                <input type="checkbox" class="toggler" id="toggler">
+                <div class="hamburger"><div></div></div>
+            </div> <!-- burgericon -->
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li class="discordbtn2"><a href="#discord-link" class="discordbtn">Discord</a></li>
+                </ul>
+            </nav>
+        </section> <!-- header -->
     </header>
 
     <script src="js/currency.js"></script>
+    <script src="js/burger.js"></script>
 </body>
 </html>
