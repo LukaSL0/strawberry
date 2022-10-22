@@ -359,6 +359,7 @@ nav ul li:hover:after {
 }
 
 .features2 {
+    display: flex;
     width: 100%;
     display: flex;
 }
@@ -392,18 +393,36 @@ nav ul li:hover:after {
 }
 
 @media screen and (max-width: 1260px) {
-    
+    .features {
+        padding: 3.5% 5%;
+    }
 }
 
 @media screen and (max-width: 1120px) {
     .home-txt h1 {
         font-size: 32px;
     }
+    .features {
+        padding: 3.5% 1%;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        width: 270px;
+        height: 210px;
+    }
+    .features p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 975px) {
     .home-txt h1 {
         font-size: 27px;
+    }
+    .features {
+        padding: 2.5% 0;
     }
 }
 
@@ -441,6 +460,19 @@ nav ul li:hover:after {
     }
     .partners .mid1 {
         margin: 0 10px;
+    }
+    .features1 {
+        display: block;
+        margin-bottom: 0;
+    }
+    .features h1 {
+        margin-bottom: 15px;
+    }
+    .features2 {
+        display: block;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        margin-bottom: 25px;
     }
 }
 
@@ -485,5 +517,9 @@ nav ul li:hover:after {
     .hamburger {
         top: 10px;
         right: 7px;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        width: 225px;
+        height: 175px;
     }
 }
