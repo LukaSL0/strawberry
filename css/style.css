@@ -278,12 +278,60 @@ nav ul li:hover:after {
 
 /*--------------------HOME--------------------*/
 
+/*--------------------PARTNERS--------------------*/
+
+.partners-h1 {
+    background-color: rgb(25, 25, 25);
+    padding: 2.1% 0;
+}
+
+.partners-h1 h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3vmin;
+    font-size: 26px;
+}
+
+.partners {
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    padding: 1.7% 0;
+}
+
+.partners img {
+    width: 90px;
+    height: 90px;
+}
+
+.partners .mid1 {
+    margin: 0 80px;
+}
+
+.partners-p {
+    background-color: rgb(25, 25, 25);
+    padding: 2.3% 5%;
+}
+
+.partners-p p {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+/*--------------------PARTNERS--------------------*/
+
 @media screen and (max-width: 1366px) {
     nav ul li a {
         font-size: 16px;
     }
     .discordbtn {
         font-size: 14px!important;
+    }
+    .partners-h1 h1 {
+        font-size: 22px;
+    }
+    .partners-p p {
+        font-size: 20px;
     }
 }
 
@@ -324,11 +372,24 @@ nav ul li:hover:after {
         float: none;
         font-size: 16px;
     }
+    .partners img {
+        width: 65px;
+        height: 65px;
+    }
+    .partners-p p {
+        font-size: 16px;
+    }
+    .partners .mid1 {
+        margin: 0 10px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .home-txt h1 {
         font-size: 20.5px;
+    }
+    .partners-p p {
+        font-size: 15px;
     }
 }
 
