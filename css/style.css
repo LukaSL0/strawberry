@@ -320,6 +320,62 @@ nav ul li:hover:after {
 
 /*--------------------PARTNERS--------------------*/
 
+/*--------------------FEATURES--------------------*/
+
+.features {
+    background-color: rgb(35, 35, 35);
+    padding: 3.5% 10%;
+}
+
+.features h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features h2 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.features p {
+    font-size: 14px;
+    color: #ffe8e3;
+    margin: 10px 0;
+}
+
+.features img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.features1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.features2 {
+    width: 100%;
+    display: flex;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    width: 310px;
+    height: 250px;
+    box-shadow: 0 0 0.3em rgb(255, 95, 95);
+    border-radius: 8px;
+    padding: 2% 4%;
+    margin: auto;
+}
+
+/*--------------------FEATURES--------------------*/
+
 @media screen and (max-width: 1366px) {
     nav ul li a {
         font-size: 16px;
@@ -333,6 +389,10 @@ nav ul li:hover:after {
     .partners-p p {
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 1260px) {
+    
 }
 
 @media screen and (max-width: 1120px) {
