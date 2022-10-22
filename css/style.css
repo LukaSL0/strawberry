@@ -377,6 +377,19 @@ nav ul li:hover:after {
 
 /*--------------------FEATURES--------------------*/
 
+/*--------------------PRICING--------------------*/
+
+.pricing {
+    background-color: rgb(25, 25, 25);
+    padding: 5% 5%;
+}
+
+.pricing-header {
+    display: flex;
+}
+
+/*--------------------PRICING--------------------*/
+
 @media screen and (max-width: 1366px) {
     nav ul li a {
         font-size: 16px;
