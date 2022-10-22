@@ -494,6 +494,36 @@ nav ul li:hover:after {
 
 /*--------------------PRICING--------------------*/
 
+/*--------------------FOOTER--------------------*/
+
+.line {
+    background-color: rgb(245, 30, 42);
+    width: 82%;
+    height: 1px;
+    margin-left: 9%;
+}
+
+.footer-box {
+    background-color: #232323;
+    padding: 2% 9%;
+}
+
+.footer-box p {
+    color: #ffe8e3;
+    font-size: 14px;
+}
+
+.footer-box .mr {
+    margin-top: 5px;
+}
+
+.footer-box a {
+    color: rgb(151, 139, 255);
+    transition: all 0.5s;
+}
+
+/*--------------------FOOTER--------------------*/
+
 @media screen and (max-width: 1366px) {
     nav ul li a {
         font-size: 16px;
@@ -568,6 +598,10 @@ nav ul li:hover:after {
     .p-box1, .p-box2, .p-box3 {
         width: 255px;
         height: 420px;
+        font-size: 14px;
+    }
+    .footer-box p {
+        font-size: 13px;
     }
 }
 
@@ -625,6 +659,13 @@ nav ul li:hover:after {
     .p-box1, .p-box2, .p-box3 {
         margin-bottom: 40px;
     }
+    .p-body a {
+        padding: 5px 11px;
+        font-size: 12px;
+    }
+    .footer-box p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -645,6 +686,9 @@ nav ul li:hover:after {
     }
     .home-txt a {
         font-size: 13px;
+    }
+    .footer-box p {
+        font-size: 10px;
     }
 }
 
@@ -672,5 +716,8 @@ nav ul li:hover:after {
     .box1, .box2, .box3, .box4, .box5, .box6 {
         width: 225px;
         height: 175px;
+    }
+    .footer-box p {
+        font-size: 7px;
     }
 }
