@@ -1,12 +1,16 @@
-import { SelectedCurrency } from './pricing-currency.js';
+import { SelectedCurrency } from "./pricing-currency.js";
 
 export default function PricingLayout(props) {
+
+    const currency = SelectedCurrency();
+
+    const price = () => {
+        return currency === "R$" ? props.price : (props.price / 5);
+    }
 
     const time = () => {
         return props.type === "Monthly" ? "/monthly" : "/lifetime";
     }
-
-    const currency = SelectedCurrency();
 
     return (
         <div className="pricing-box">
@@ -15,7 +19,7 @@ export default function PricingLayout(props) {
             </div>
             <div className="pricing-box-info">
                 <span className="moeda">{currency}</span>
-                <span className="valor">10</span>
+                <span className="valor">{price(props.price)}</span>
                 <span className="tempo">{time(props.type)}</span>
             </div>
             <div className="pricing-box-body">
