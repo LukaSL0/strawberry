@@ -2,7 +2,7 @@ export default function PricingLayout() {
 
     return (
         <div className="pricing-box">
-            <div className="p-header">
+            <div className="pricing-box-header">
                 <h2>Monthly</h2>
             </div>
             <div className="p-items">
