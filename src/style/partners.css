@@ -1,0 +1,51 @@
+.partners h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3vmin;
+    font-size: 26px;
+    padding: 2.1% 0;
+}
+
+.partners-showcase {
+    display: flex;
+    text-align: center;
+    padding: 1.7% 13%;
+    justify-content: space-between;
+}
+
+.partners-showcase img {
+    width: 90px;
+    height: 90px;
+}
+
+.partners p {
+    padding: 2.3% 5%;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 1366px) {
+    .partners h1 {
+        font-size: 22px;
+    }
+    .partners p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .partners img {
+        width: 65px;
+        height: 65px;
+    }
+    .partners p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .partners p {
+        font-size: 15px;
+    }
+}
