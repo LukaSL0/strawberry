@@ -56,14 +56,15 @@
 }
 
 .pricing-box-info {
-    padding: 3%;
-    text-align: center;
+    display: flex;
+    padding: 3% 0;
+    justify-content: center;
 }
 
 .pricing-box-info .moeda {
     color: rgb(255, 95, 95);
     font-size: 30px;
-    align-items: center;
+    margin: 2px 2px 0 0;
 }
 
 .pricing-box-info .valor {
@@ -73,6 +74,7 @@
 
 .pricing-box-info .tempo {
     color: #ffe8e3;
+    margin: auto 0 6px 3px;
 }
 
 .pricing-box-body {
@@ -98,4 +100,55 @@
     transition: all 0.5s;
     background-color: white;
     color: rgb(245, 30, 42);
+}
+
+@media screen and (max-width: 1260px) {
+    .pricing-box {
+        width: 300px;
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .pricing-box {
+        width: 290px;
+        height: 475px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .pricing-box {
+        width: 265px;
+        height: 440px;
+    }
+    .pricing-box-info .valor {
+        font-size: 36px;
+    }
+    .pricing-box-info .moeda {
+        font-size: 28px;
+    }
+    .pricing-box-body ul li {
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .pricing-box {
+        width: 255px;
+        height: 420px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .pricing-boxes {
+        display: block;
+    }
+    .pricing-box {
+        margin-bottom: 40px;
+    }
+    .pricing-box-body a {
+        padding: 5px 11px;
+        font-size: 12px;
+    }
 }
