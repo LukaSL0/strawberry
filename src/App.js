@@ -5,6 +5,7 @@ import Home from './components/home.js';
 import Partners from './components/partners.js';
 import Features from './components/features.js';
 import Pricing from './components/pricing.js';
+import Footer from './components/footer.js';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Features />
       <Pricing />
         <Line />
+      <Footer />
     </div>
   );
 }
