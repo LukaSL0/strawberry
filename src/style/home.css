@@ -1,0 +1,93 @@
+.home {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(248, 90,61) 5%, rgb(245, 30, 42) 95%);
+    padding: 6% 11% 15% 11%;
+}
+
+.home img {
+    width: 235px;
+    height: 235px;
+}
+
+.home-txt {
+    padding: 5% 0 0 0;
+    margin-left: auto;
+}
+
+.home-txt h1{
+    color: white;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.home-txt a {
+    background-color: transparent;
+	transition: all 0.5s;
+	border: white solid 2px;
+	font-weight: bold;
+	padding: 6px 14px;
+	font-size: 14px;
+	color: white;
+	border-radius: 4px;
+    float: right;
+}
+
+.home-txt a:hover {
+    transition: all 0.5s;
+	color: red;
+	background-color: white;
+}
+
+@media screen and (max-width: 1120px) {
+    .home-txt h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .home-txt h1 {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .home {
+        display: block;
+        text-align: center;
+    }
+    .home-txt h1 {
+        font-size: 24px;
+        margin-bottom: 55px;
+    }
+    .home-txt a {
+        float: none;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-txt h1 {
+        font-size: 20.5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .home-txt h1 {
+        font-size: 18.5px;
+    }
+    .home-txt a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .home-txt h1 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .home-txt h1 {
+        font-size: 13.5px;
+    }
+}
