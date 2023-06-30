@@ -30,9 +30,6 @@
     .direitos p {
         font-size: 12px;
     }
-    .footer-box p {
-        text-align: center;
-    }
 }
 @media screen and (max-width: 600px) {
     .direitos p {

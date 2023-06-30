@@ -127,9 +127,6 @@
     .pricing-box-info .moeda {
         font-size: 28px;
     }
-    .pricing-box-body ul li {
-        margin: 2%;
-    }
 }
 
 @media screen and (max-width: 975px) {

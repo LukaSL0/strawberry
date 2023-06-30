@@ -1,3 +1,6 @@
-# React clean setup by Luka
+# strawberry
 
-Setup perfeito para iniciar projetos react.
+Linguagens utilizadas: HTML / CSS / JS
+Framework: React JS
+
+Projeto feito para cliente autônomo, algumas modificações foram feitas para preservar os dados pessoais do cliente e seu projeto original. (O Projeto original não segue sendo utilizado)
