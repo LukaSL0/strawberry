@@ -1,0 +1,101 @@
+.pricing {
+    background-color: rgb(25, 25, 25);
+    padding: 3% 5%;
+}
+
+.pricing-header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.pricing-header h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.pricing-header select {
+    position: absolute;
+    right: 6.9%;
+	border-radius: 4px;
+	color: white;
+	border: none;
+	background-color: rgb(15, 15, 15);
+	box-shadow: 0 0 .5em rgb(15, 15, 15);
+	outline: none;
+    height: 30px;
+}
+
+.pricing-boxes {
+    display: flex;
+}
+
+.p-header {
+    background-color: rgb(245, 30, 42);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 5.5% 5%;
+}
+
+.p-header h2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.pricing-box {
+    border-radius: 7px;
+    background-color: white;
+    margin: auto;
+    width: 345px;
+    height: 550px;
+    box-shadow: 0 0 1em rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);
+}
+
+.p-items {
+    padding: 3%;
+    text-align: center;
+}
+
+.p-items .moeda {
+    color: rgb(255, 95, 95);
+    font-size: 30px;
+    align-items: center;
+}
+
+.p-items .valor {
+    color: rgb(255, 95, 95);
+    font-size: 40px;
+}
+
+.p-items .tempo {
+    color: #ffe8e3;
+}
+
+.p-body {
+    text-align: center;
+}
+
+.p-body ul li {
+    color: #ffe8e3;
+    padding: 3% 0;
+}
+
+.p-body a {
+    border: solid 2px white;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.p-body a:hover {
+    transition: all 0.5s;
+    background-color: white;
+    color: rgb(245, 30, 42);
+}
