@@ -1,4 +1,5 @@
 import './App.css';
+import Line from './components/modules/line.js';
 import Header from './components/header.js';
 import Home from './components/home.js';
 import Partners from './components/partners.js';
@@ -13,6 +14,7 @@ export default function App() {
       <Partners />
       <Features />
       <Pricing />
+        <Line />
     </div>
   );
 }

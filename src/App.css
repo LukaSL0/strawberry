@@ -66,3 +66,17 @@ body {
 ::-webkit-scrollbar-track:active {
 	background: #4b5a68;
 }
+
+/*---------------------------------------------------------*/
+
+.line {
+	display: flex;
+	background-color: #232323;
+}
+  
+.lineIN {
+	background-color: #232323;
+	border-bottom: solid 1px rgb(245, 30, 42);
+	margin: auto;
+	width: 70%;
+}
