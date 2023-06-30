@@ -5,12 +5,12 @@ export default function PricingLayout() {
             <div className="pricing-box-header">
                 <h2>Monthly</h2>
             </div>
-            <div className="p-items">
-                <span className="moeda" id="moeda-mes">R$</span>
-                <span className="valor" id="preco-mes">15</span>
+            <div className="pricing-box-info">
+                <span className="moeda">R$</span>
+                <span className="valor">15</span>
                 <span className="tempo">/monthly</span>
             </div>
-            <div className="p-body">
+            <div className="pricing-box-body">
                 <ul>
                     <li>Unique System</li>
                     <li>1100+ Strings</li>
