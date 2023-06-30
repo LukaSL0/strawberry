@@ -57,7 +57,7 @@
 
 .pricing-box-info {
     display: flex;
-    padding: 3% 0;
+    padding: 4% 0 0 0;
     justify-content: center;
 }
 
@@ -83,7 +83,7 @@
 
 .pricing-box-body ul li {
     color: #ffe8e3;
-    padding: 3% 0;
+    margin: 5% 0 6% 0;
 }
 
 .pricing-box-body a {
@@ -128,7 +128,7 @@
         font-size: 28px;
     }
     .pricing-box-body ul li {
-        padding: 2%;
+        margin: 2%;
     }
 }
 

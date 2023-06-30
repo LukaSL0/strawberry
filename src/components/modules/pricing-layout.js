@@ -3,13 +3,27 @@ import { SelectedCurrency } from "./pricing-currency.js";
 export default function PricingLayout(props) {
 
     const currency = SelectedCurrency();
+    const desc = props.desc.split(';');
 
     const price = () => {
-        return currency === "R$" ? props.price : (props.price / 5);
+        if (props.price === "??") {
+            return props.price;
+        } else {
+            return currency === "R$" ? props.price : (props.price / 5);
+        }
     }
 
     const time = () => {
-        return props.type === "Monthly" ? "/monthly" : "/lifetime";
+        return props.type === "Lifetime" ? "/lifetime" : "/monthly";
+    }
+    const button = () => {
+        return props.price === "??" ? "DISCORD" : "PURCHASE";
+    }
+
+    const List = [];
+    
+    for (let i = 0; i < desc.length; i++) {
+        List.push(<li key={i}>{desc[i]}</li>);
     }
 
     return (
@@ -24,15 +38,9 @@ export default function PricingLayout(props) {
             </div>
             <div className="pricing-box-body">
                 <ul>
-                    <li>Unique System</li>
-                    <li>1100+ Strings</li>
-                    <li>Unlimited PIN's</li>
-                    <li>30d Access</li>
-                    <li>Discord Panel</li>
-                    <li>Weekly Updates</li>
-                    <li>1 User</li>
+                    {List}
                 </ul>
-                <a href="#purchase-link">PURCHASE</a>
+                <a href="#purchase-link">{button()}</a>
             </div>
         </div>
     )
