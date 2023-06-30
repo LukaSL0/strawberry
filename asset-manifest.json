@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/strawberry/static/css/main.fcd6940f.css",
+    "main.js": "/strawberry/static/js/main.a24ef80f.js",
+    "index.html": "/strawberry/index.html",
+    "main.fcd6940f.css.map": "/strawberry/static/css/main.fcd6940f.css.map",
+    "main.a24ef80f.js.map": "/strawberry/static/js/main.a24ef80f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcd6940f.css",
+    "static/js/main.a24ef80f.js"
+  ]
+}
